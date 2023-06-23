@@ -38,19 +38,19 @@ This project page provides pytorch code that implements the following CVPR2019 p
     - `cp val2014/* images`
 
 **Pretrained Models**
-- [DAMSM for bird](https://drive.google.com/open?id=1GNUKjVeyWYBJ8hEU-yrfYQpDOkxEyP3V). Download and save it to `DAMSMencoders/`
+- [DAMSM for bird](https://drive.google.com/file/d/17B8_1oemXxiKTUGKcLNSo0vpYumrIL5t/view?usp=drive_link). Download and save it to `DAMSMencoders/`
     - `python google_drive.py 1GNUKjVeyWYBJ8hEU-yrfYQpDOkxEyP3V DAMSMencoders/bird.zip`
-- [DAMSM for coco](https://drive.google.com/open?id=1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ). Download and save it to `DAMSMencoders/`
+- [DAMSM for coco](https://drive.google.com/file/d/1S8GLtR_4TBxlFKL_p04dWFWRBN6R48AG/view?usp=drive_link). Download and save it to `DAMSMencoders/`
     - `python google_drive.py 1zIrXCE9F6yfbEJIbNP5-YrEe2pZcPSGJ DAMSMencoders/coco.zip`
-- [DM-GAN for bird](https://drive.google.com/file/d/1BmDKqIyNY_7XWhXpxa2gm6TYxB2DQHS3). Download and save it to `models`
+- [DM-GAN for bird](https://drive.google.com/file/d/195b4C5zEDAkFF4x6ZorLLAxy05gOG54u/view?usp=drive_link). Download and save it to `models`
     - `python google_drive.py 1BmDKqIyNY_7XWhXpxa2gm6TYxB2DQHS3 models/bird_DMGAN.pth`
-- [DM-GAN for coco](https://drive.google.com/file/d/1tQ9CJNiLlRLBKSUKHXKYms2tbfzllyO-). Download and save it to `models`
+- [DM-GAN for coco](https://drive.google.com/file/d/1FwSrgpPDhA7G_VBj02z13OYVkWVAPRRJ/view?usp=drive_link). Download and save it to `models`
     - `python google_drive.py 1tQ9CJNiLlRLBKSUKHXKYms2tbfzllyO- models/coco_DMGAN.pth`
 - [IS for bird](https://drive.google.com/file/d/0B3y_msrWZaXLMzNMNWhWdW0zVWs)
     - `python google_drive.py 0B3y_msrWZaXLMzNMNWhWdW0zVWs eval/IS/bird/inception_finetuned_models.zip`
-- [FID for bird](https://drive.google.com/file/d/1747il5vnY2zNkmQ1x_8hySx537ZAJEtj)
+- [FID for bird](https://drive.google.com/file/d/1JodDaG9zXGPT-2B35PmDYOAiJi-9leLT/view?usp=drive_link)
     - `python google_drive.py 1747il5vnY2zNkmQ1x_8hySx537ZAJEtj eval/FID/bird_val.npz`
-- [FID for coco](https://drive.google.com/file/d/10NYi4XU3_bLjPEAg5KQal-l8A_d8lnL5)
+- [FID for coco](https://drive.google.com/file/d/1qU-8Bjko-mi5kocCf9XoRiHuGqOVtlEd/view?usp=drive_link)
     - `python google_drive.py 10NYi4XU3_bLjPEAg5KQal-l8A_d8lnL5 eval/FID/coco_val.npz`
 
 **Training**
