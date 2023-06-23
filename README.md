@@ -1,22 +1,6 @@
 # *DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis*
 
-### Introduction
-This project page provides pytorch code that implements the following CVPR2019 paper:
-
-**Title:** "DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis"
-
-**Arxiv:** https://arxiv.org/abs/1904.01310
-
 ### How to use
-
-**Python**
-
-- Python2.7
-- Pytorch0.4 (`conda install pytorch=0.4.1 cuda90 torchvision=0.2.1 -c pytorch`)
-- tensorflow (`pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp27-none-linux_x86_64.whl`)
-- `pip install easydict pathlib`
-- `conda install requests nltk pandas scikit-image pyyaml cudatoolkit=9.0`
-
 
 **Data**
 1. Download metadata for [coco](https://drive.google.com/file/d/1yb8aQil6Z1XvmwPercNd5aqQsAZIgdLd/view?usp=sharing) [birds](https://drive.google.com/file/d/19NGMTFDhCqzS_kPNGZ7bq7ipG1GFpWmQ/view?usp=drive_link) and save them to `data/`
